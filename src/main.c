@@ -152,6 +152,7 @@ int main(void){
 
 		if (input == 0) {
 		    running = 0;
+          goto cleanup;
 		} else if (input >= 1 && input <= 9 && list[input-1] != NULL && input!=size) {
 		    fprintf(xinit, "%s", list[input-1]);
 		    running = 0;
