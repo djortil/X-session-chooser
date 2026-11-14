@@ -10,3 +10,5 @@ This simple tool allows you to launch an X session from Linux TTY without having
 
 For example:
 `xfce4-session;windowmaker;icewm-session;`
+
+start from TTY With `xsesh`
